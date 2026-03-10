@@ -40,8 +40,8 @@ xai-cnn-eval/
 │   └── split_imagenet.sh
 │
 ├── results/
-│   ├── Grad-CAM/
-│   └── CRAFT/
+│   ├── Grad-CAM/GRADCAM.csv
+│   └── CRAFT/CRAFT.csv
 │
 ├── requirements.txt
 |
