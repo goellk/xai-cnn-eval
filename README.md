@@ -88,7 +88,19 @@ pip install -r requirements.txt
 
 If you use this repository or parts of it in your work, please cite the paper appropriately:
 
-*(To be completed — paper citation will be added later.)*
+```
+@inproceedings{xaieval2026,
+  author    = {Kilian Göller and Haadia Amjad and Steffen Seitz and Carsten Knoll and Ronald Tetzlaff},
+  title     = {How a Model’s Architecture and Performance Influences Explainability: A Study of Grad-CAM and CRAFT in CNN-Based Image Classification},
+  booktitle = {Explainable Artificial Intelligence},
+  year      = {2026},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  note      = {To appear}
+}
+```
+
+*(Paper accepted for presentation at 4th XAI World Conference in Fortaleza, Brazil. Soon to be published.)*
 
 ---
 
