@@ -109,8 +109,5 @@ If you use this repository or parts of it in your work, please cite the paper ap
 ---
 
 ## 📄 Acknowledgment
-This work is part of the **XRAISE** research project by the  
-**Deutsches Zentrum für Schienenverkehrsforschung (DZSF)** at the **Eisenbahn-Bundesamt**.
-*(To be completed — further acknowledgements will be added later.)*
-
+This work was supported by DFG (grant number TE257/37-1), by the Konrad Zuse School, SECAI (BMBF Project Nr. 57616814) and **Deutsches Zentrum für Schienenverkehrsforschung (DZSF)** at the **Eisenbahn-Bundesamt** as part of the **XRAISE** research project.
 ---
