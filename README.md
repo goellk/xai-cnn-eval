@@ -80,7 +80,40 @@ pip install -r requirements.txt
 
 ## 🚀 Usage Instructions
 
-*(To be completed — usage examples and run commands will be added later.)*
+1. **Dataset Preparation:**
+   *(To be completed ...)*
+
+2. **Model Training:**
+   
+   *(To be completed ...)*
+
+3. **XAI Evaluation:**
+   
+   As described in our paper, we applied and evaluated the two XAI methods Grad-CAM and CRAFT in order to explain the model’s predictions and evaluate the explanations. For applying the scripts mentioned below the trained models are required. All scripts are available in the `XAI_evaluation` directory.
+   
+   - **Grad-CAM:** The XAI evaluation for Grad-CAM is implemented in the script `Grad-CAM/[convnext/resnet/vgg]/evaluate_gradcam_quantus.py`.
+     
+     Adjust the model and dataset paths and run the script:
+     
+     ```bash
+     python evaluate_gradcam_quantus.py
+     ```
+   
+   - **CRAFT:** For running and evaluating CRAFT on a specific model, you need to run two different scripts, located in `CRAFT/[convnext/resnet/vgg]` :
+     
+     ```bash
+     python dump_craft_explanations.py
+     ```
+     
+     and
+     
+     ```bash
+     python evaluate_craft_explanations.py
+     ```
+     
+     **Disclaimer:** Please note that the code associated with the CRAFT evaluation is partially unavailable, as the authors are currently working on publishing it in a separate paper. The link to the separate paper and repository will be added here soon.
+
+
 
 ---
 
@@ -100,7 +133,7 @@ If you use this repository or parts of it in your work, please cite the paper ap
 }
 ```
 
-*(Paper accepted for presentation at 4th XAI World Conference in Fortaleza, Brazil. Soon to be published.)*
+*(Paper accepted for presentation at the 4th XAI World Conference in Fortaleza, Brazil. Soon to be published.)*
 
 ---
 
