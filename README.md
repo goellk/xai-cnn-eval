@@ -105,6 +105,11 @@ If you use this repository or parts of it in your work, please cite the paper ap
 - Grad-CAM: Selvaraju, Ramprasaath R., et al. “Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization.” 2017 IEEE International Conference on Computer Vision (ICCV), 2017, pp. 618–626.
 - CRAFT: Thomas Fel, Agustin Picard, Louis Bethune, Thibaut Boissin, David Vigouroux, Julien Colin, Rémi Cadène, and Thomas Serre. “CRAFT: Concept Recursive Activation Factori­zation for Explainability.” Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
 
+### Evaluation Frameworks
+
+- Quantus: Hedström, Anna, et al. “Quantus: An Explainable AI Toolkit for Responsible Evaluation of Neural Network Explanations and Beyond.” Journal of Machine Learning Research, 2023.
+- *(CRAFT Evaluation Framework To be added)*
+
 ---
 
 ## 📄 Acknowledgment
