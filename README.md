@@ -30,30 +30,22 @@ Please note that you have to add datasets to the "Data" directory by yourself.
 ```
 xai-cnn-eval/
 │
-├── Code/
-│   ├── VGG16/
-│   │   ├── training.py
-│   │   ├── helper.py
-│   │   └── [XAI method scripts]
-│   │
-│   ├── ResNet50/
-│   │   ├── training.py
-│   │   ├── helper.py
-│   │   └── [XAI method scripts]
-│   │
-│   ├── ConvNeXt-T/
-│       ├── training.py
-│       ├── helper.py
-│       └── [XAI method scripts]
+├── training/
+│   ├── train_convnext.py
+│   ├── train_resnet.py
+│   └── train_vgg.py
 │
-├── Data/
-│   └── [datasets]
+├── datasets/
+│   ├── imagenet80_subset_classes.txt
+│   └── split_imagenet.sh
 │
-├── Results/
+├── results/
 │   ├── Grad-CAM/
 │   └── CRAFT/
 │
-└── requirements.txt
+├── requirements.txt
+|
+└── README.md
 ```
 
 ---
