@@ -17,7 +17,7 @@ This repository provides:
   - **ConvNeXt-T** [Liu et al., 2022]
 - Implementations of two XAI method evaluation pipelines:
   - **Grad-CAM (Gradient-weighted Class Activation Mapping)** [Selvaraju et al., 2017]
-  - **CRAFT (Concept Recursive Activation FacTorization)** [Fel et al., 2015]
+  - **CRAFT (Concept Recursive Activation FacTorization)** [Fel et al., 2023]
 - Results of the Grad-CAM and CRAFT evaluations.
 - A `requirements.txt` file for setting up the Python environment.
 
