@@ -99,12 +99,12 @@ pip install -r requirements.txt
    
    As described in our paper, we applied and evaluated the two XAI methods Grad-CAM and CRAFT in order to explain the model’s predictions and evaluate the explanations. For applying the scripts mentioned below the trained models are required. 
    
-   - **Grad-CAM:** The XAI evaluation for Grad-CAM is implemented in the script `Grad-CAM/[convnext/resnet/vgg]/evaluate_gradcam_quantus.py`.
+   - **Grad-CAM:** The XAI evaluation for Grad-CAM is implemented in the scripts in `XAI_evaluation/gradcam/`.
      
      Adjust the model and dataset paths and run the script:
      
      ```bash
-     python evaluate_gradcam_quantus.py
+     python evaluate_gradcam_quantus_[convnext-t/resnet50/vgg16].py
      ```
    
    - **CRAFT:** 
