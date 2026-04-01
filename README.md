@@ -30,6 +30,14 @@ Please note that you have to add datasets to the "Data" directory by yourself.
 ```
 xai-cnn-eval/
 │
+├── XAI_evaluation/
+│   ├── craft/
+|   |   └── readme.txt
+│   └── gradcam/
+|       ├── evaluate_gradcam_quantus_convnext-t.py
+│       ├── evaluate_gradcam_quantus_resnet50.py
+|       └── evaluate_gradcam_quantus__vgg16.py
+|
 ├── training/
 │   ├── train_convnext.py
 │   ├── train_resnet.py
