@@ -32,7 +32,7 @@ xai-cnn-eval/
 │
 ├── XAI_evaluation/
 │   ├── craft/
-|   |   └── readme.txt
+│   │   └── readme.txt
 │   └── gradcam/
 |       ├── evaluate_gradcam_quantus_convnext-t.py
 │       ├── evaluate_gradcam_quantus_resnet50.py
