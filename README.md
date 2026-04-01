@@ -89,15 +89,15 @@ pip install -r requirements.txt
 ## 🚀 Usage Instructions
 
 1. **Dataset Preparation:**
-   *(To be completed ...)*
+   Load the Imagenet-1K dataset into the `datasets/` directory. Then run the ```split_imagenet.sh``` script to split up the dataset into 10 subsets.
 
 2. **Model Training:**
-   
-   *(To be completed ...)*
+   Train the VGG16, ResNet50 and ConvNeXt-t models with the training scripts located in the `training/` directory. Adjust dataset paths if needed.
+   E.g. for starting the training of ResNet50, run ```python train_resnet.py```.
 
-3. **XAI Evaluation:**
+4. **XAI Evaluation:**
    
-   As described in our paper, we applied and evaluated the two XAI methods Grad-CAM and CRAFT in order to explain the model’s predictions and evaluate the explanations. For applying the scripts mentioned below the trained models are required. All scripts are available in the `XAI_evaluation` directory.
+   As described in our paper, we applied and evaluated the two XAI methods Grad-CAM and CRAFT in order to explain the model’s predictions and evaluate the explanations. For applying the scripts mentioned below the trained models are required. 
    
    - **Grad-CAM:** The XAI evaluation for Grad-CAM is implemented in the script `Grad-CAM/[convnext/resnet/vgg]/evaluate_gradcam_quantus.py`.
      
@@ -107,19 +107,8 @@ pip install -r requirements.txt
      python evaluate_gradcam_quantus.py
      ```
    
-   - **CRAFT:** For running and evaluating CRAFT on a specific model, you need to run two different scripts, located in `CRAFT/[convnext/resnet/vgg]` :
-     
-     ```bash
-     python dump_craft_explanations.py
-     ```
-     
-     and
-     
-     ```bash
-     python evaluate_craft_explanations.py
-     ```
-     
-     **Disclaimer:** Please note that the code associated with the CRAFT evaluation is partially unavailable, as the authors are currently working on publishing it in a separate paper. The link to the separate paper and repository will be added here soon.
+   - **CRAFT:** 
+     Please note that the code associated with the CRAFT evaluation is partially unavailable, as the authors are currently working on publishing it in a separate paper. The link to the separate paper and repository will be added here soon.
 
 
 
