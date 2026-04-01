@@ -1,5 +1,3 @@
-# evaluate_gradcam_quantus_clean.py
-
 import os
 import json
 import warnings

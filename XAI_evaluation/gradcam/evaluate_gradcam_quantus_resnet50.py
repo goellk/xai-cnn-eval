@@ -1,6 +1,3 @@
-# evaluate_gradcam_quantus_clean.py
-# Clean version showing only metric names, results, and summary
-
 import os
 import json
 import warnings
